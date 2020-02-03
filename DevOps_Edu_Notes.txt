@@ -1,0 +1,72 @@
+Application: Piece of code eg. online banking,online shopping
+Different type of appln 
+standalone,web and enterprise
+
+standalone:installed on laptop and access on laptop only eg: vlc player, ms office
+web:website access this appln across through globe eg:www.edureka.com (webserver)
+entreprise: online banking,ebusinesss application,amazon, flipkart(sophisticated env)
+
+
+Webserver:
+Apache
+nginx
+tomcat
+iis
+
+Application server:
+Webspere
+jboss
+glassfish
+weblogic
+
+wrting code is one part and hosting is second part
+
+server that serve some thing whatever end user request
+client--> applnt--> db  (3 tier architecture)
+
+Authorization: you are authorized to perform that action or not
+Authentication: validating the credential.
+
+
+s/w engineering 
+devlopemnt , operation(hosting) maintenance(maintain the appln)
+
+eg:Android
+IOS
+
+waterfall model
+step by step approach 
+requirement gthering-->design-->code->testing-->deployment -->maint
+tightly coupled(monolithic arch)
+All the application on single machine such as db, appln etc is called the monolithic architecture eg:hotel application
+
+Agile
+everything can be done in parellel
+It is continuous improvement process
+N-tier architecture
+webeserver on another server
+db on the another server
+distributed arch
+physical server to virtual server
+dc to hosted environment
+
+Devops
+Microservices
+container(Docker)
+cloud(AWS,Azure,GCP,Digital ocean, Open shift):Pay as you use
+
+Agile is fast and iterative
+docter eg for the different environment
+
+devops is a re-organisation not a new team to hire
+it is combined effort of devlopment and operation team
+to release application faster way
+to give new feature to the client in faster way
+agile operation delivery
+Agile: 3 Months
+Devops: 9 min
+For every changes or feature is creating we need to push it to deployment, no need to wait as it will create easy way to identify the issue as we compare if we push 100 feature to deployment
+three pillars:
+Infrastructure automation
+continuous delivery
+reliablity engineering 
