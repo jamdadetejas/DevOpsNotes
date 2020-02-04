@@ -91,3 +91,18 @@ Devops Lifecycle
 6)deploy:ansible, chef,puppet
 7)operate:
 8)monitoring:nagios
+
+version control or SCM
+track your code.
+multiple user manage multiple revision of same unit of information
+1)local: mantain it in your local machine
+2)centralized:central server if central server fail then entire system goes down
+3)Distributed:Remote server and local machine if any server goes down it can be restore(GIT)
+local repo is the user copy and user access through local copy and push it to the remote repo if there are any changes	
+
+mkdir prj--> make the directory
+git init--> initialize the prj one time initialization
+git config --global user.name username
+git config --global user.email useremail
+commit id 
+you can tag version to commit id
