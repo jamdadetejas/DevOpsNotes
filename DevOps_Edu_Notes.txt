@@ -70,3 +70,24 @@ three pillars:
 Infrastructure automation
 continuous delivery
 reliablity engineering 
+nevere ending process
+automate infra
+continuos delivery
+Waterfall model:
+design-->code-->test-->deploy
+
+Agile:
+design-->code-->test-->design-->code-->test-->design-->code-->test-->design-->code-->test-->deploy
+
+Agile with continuos deploy:
+design-->code-->test-->deploy-->design-->code-->test-->deploy-->design-->code-->test-->deploy-->design-->code-->test-->deploy-->design-->code-->test-->deploy
+
+Devops Lifecycle
+1)planning tool:trello rally jira
+2)coding tools:eclipse
+3)build tools:maven
+4)test tool:junit,selenium
+5)release:jenkin, travis , bamboo
+6)deploy:ansible, chef,puppet
+7)operate:
+8)monitoring:nagios
