@@ -125,4 +125,20 @@ git rm filename =rm +git add
 git rm --cached file1 (going frwd it will not track file1)
 git rm -f file1 = forcefully remove the file git repo 
 vi .gitignore(mention the file name)
+git commit --ammend
+git tag --a 1.1 -m "hotfix"(you cannot tagged again with same version) it consider recent commit id
+git show v1.3
+git show commitid
+git diff Head..Head~2 (commit id instead of head)
+git reset --hard commitid(it will take back to the mention commit id)your recent changes will be gone 
+git revert commitid==> enter some comment and save & close==> git log commit id is still der but changes are there with commit id (your recent changes will be there and it create new commit id )
+
+1. remote --> get into local
+2. local--> send it into remote
+
+git remote add origin repolink
+git remote -v
+git push -u origin master 
+
+
 
