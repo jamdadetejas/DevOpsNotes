@@ -106,3 +106,23 @@ git config --global user.name username
 git config --global user.email useremail
 commit id 
 you can tag version to commit id
+-----------------------------------------------------------------------------------------------------------------------
+1. make your changes create delete update to prj code
+2.add them to local git repo (staging).eg file download to temp area while downloading the file from internet
+3.commit them
+
+
+git log (which will show what are the changes you made to the prj time, user, author, commit id(hexadecimal))
+last commited change is called as head(recent commit)
+staging area is like playground
+git log --oneline (in shortform)
+when you want to make multiple changes staging is the good option
+whatever add to git it would takecare of that.
+ls -a
+cd .git
+
+git rm filename =rm +git add
+git rm --cached file1 (going frwd it will not track file1)
+git rm -f file1 = forcefully remove the file git repo 
+vi .gitignore(mention the file name)
+
