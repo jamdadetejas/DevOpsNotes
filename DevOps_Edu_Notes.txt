@@ -167,5 +167,5 @@ git stash list
 git stash apply==(will get back the data that is beaing saved to the hidden area)
 git rebase
 chksum(by default git uses to check whether the file is modified)
-
+git commit -a -m "message"
 
