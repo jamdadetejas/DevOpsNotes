@@ -110,6 +110,7 @@ you can tag version to commit id
 1. make your changes create delete update to prj code
 2.add them to local git repo (staging).eg file download to temp area while downloading the file from internet
 3.commit them
+4.git push -u origin master (remote server)
 
 
 git log (which will show what are the changes you made to the prj time, user, author, commit id(hexadecimal))
@@ -140,5 +141,31 @@ git remote add origin repolink
 git remote -v
 git push -u origin master 
 
+
+when you are copying the data for the first time called as cloning
+git clone URL
+remote repo is the standard 
+git pull
+
+branching:
+
+git maintain the virtual copy
+eg JAN is master (main)by default you create it will be the master only 
+
+git branch branchname
+git branch(list the branch * means current branch)
+git checkout branchname
+git checkout master 
+git merge branchname
+git branch -d branchname(merge branch)
+git branch -D branchname(unmerge branch)
+git merge branchname(merge conflict will failed the automerge)==> make the decision which changes to take and make the necessary changes and add and commit
+merge conflict we need to do it manually
+git push --set-upstream origin branchname
+git stash--> you prepare some new code to proj don't commit that code will see it for future realease then send it to hiden area 
+git stash list 
+git stash apply==(will get back the data that is beaing saved to the hidden area)
+git rebase
+chksum(by default git uses to check whether the file is modified)
 
 
