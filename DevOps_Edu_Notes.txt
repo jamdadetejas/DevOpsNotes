@@ -150,7 +150,7 @@ git pull
 branching:
 
 git maintain the virtual copy
-eg JAN is master (main)by default you create it will be the master only 
+eg JAN is master (main)by default -------you create it will be the master only 
 
 git branch branchname
 git branch(list the branch * means current branch)
