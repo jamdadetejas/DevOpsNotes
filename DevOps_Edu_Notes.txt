@@ -168,4 +168,22 @@ git stash apply==(will get back the data that is beaing saved to the hidden area
 git rebase
 chksum(by default git uses to check whether the file is modified)
 git commit -a -m "message"
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Jenkin
+continuous integration
+whenever devloper writes the code he makes main copy that iavalaible online that is centralised location code is avaliable in  git
+next step 
+whenever we deploy the code it will be in the form .jar(java) .war(web) .ear(enterprise)[Artifact]deployable application file
+we need to build the could that should be in the above format is called as build build tool: "ant" "maven" 
+after building we give the version
+whenever a commit happen a build has to be run
+jenkin continuously monitor the git hub when changes occur it autmatically build the code
+compile:high level language to machine readable language(byte code)
+code review: syntax error extra method forget to close before compilation
+unit test:checking the code line by line devlopment level testing while the devlopemnt stage
+QA metric check:how much of code tested code coverage tested 
+package : 
+else u need to run the manual using "maven compile maven test"
+above step can br performed automatically by using jenkin
 
