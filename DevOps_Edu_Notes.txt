@@ -170,7 +170,7 @@ chksum(by default git uses to check whether the file is modified)
 git commit -a -m "message"
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Jenkin
+Jenkin java based tool open source it is browser based tool
 continuous integration
 whenever devloper writes the code he makes main copy that iavalaible online that is centralised location code is avaliable in  git
 next step 
@@ -186,4 +186,30 @@ QA metric check:how much of code tested code coverage tested
 package : 
 else u need to run the manual using "maven compile maven test"
 above step can br performed automatically by using jenkin
+after deployment we need to test the appln
+jenkin help building artifact, deployment,test(selenium)
+Continuous delivery:if you stop before prod it called as continuous delivery
+Continuous deploymnet: if you proceed till prod is called as continuous deployment
+once artifact is generated it is called as build and release 
+hudson is he prior name of jenkin
+ci detect issue in build early as possible
+jfrog,nexus  is the artifactory to store the artifact 
+plugin is the peice of s/w to talk to other technolgy git plugin(jenkin to perform more core functionality)
+in windows jenkin is installed as service services.msc
+download the WAR jenkin file copy to tomcat, websphere start the app server
+job/project: job are created in jenkin that whenever you build or run any command through jenkin job afe created 
+executor: That run your job tyres are executor gear is you job as example of CAR
+need to setup  global tool config in jenkin
+build triggers how many way we ran our jobs
+triggering the build from remote location
+creating dependency built after other prj are built
+build periodically(crontab in unix)
+poll SCM you keep on oberserving github repo 
+unstable build original task successfull if some report are unsuccessful
+LDAP: light weight directory protocol(In organisation mostly we used LDAP)
+matrix based security : which user can access to jenkin component 
+we can jenkin job using enable project based security
+
+
+
 
