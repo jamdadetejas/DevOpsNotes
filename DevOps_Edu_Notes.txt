@@ -208,8 +208,6 @@ poll SCM you keep on oberserving github repo
 unstable build original task successfull if some report are unsuccessful
 LDAP: light weight directory protocol(In organisation mostly we used LDAP)
 matrix based security : which user can access to jenkin component 
-we can jenkin job using enable project based security
-
-
+we can restrict jenkin user  job using enable project based security
 
 
