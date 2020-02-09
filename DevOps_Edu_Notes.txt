@@ -229,4 +229,7 @@ mvn compile
 mvn -P metrics pmd:pmd
 mvn test
 mvn cobertura:cobertura -Dcobertura.report.format=xml
+mvn package
+clean build space whenever new buid run
+
 
