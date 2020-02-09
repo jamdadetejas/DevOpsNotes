@@ -210,4 +210,23 @@ LDAP: light weight directory protocol(In organisation mostly we used LDAP)
 matrix based security : which user can access to jenkin component 
 we can restrict jenkin user  job using enable project based security
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+how to perform the build process 
+build tools available maven
+why jenkin if maven can do all this thing such as compile review unittest perfoemance metric package management
+build operation happens on jenkin machine 
+once WAR file are generated we deploy to the dev uat prod
+maven is build tool
+maven project are manage through POM project object model 
+pom.xml is also part of the prj devloper writes 
+maven is agin based on plugin
+maven validate
+maven compile
+maven test
+maven package
+
+mvn compile
+mvn -P metrics pmd:pmd
+mvn test
+mvn cobertura:cobertura -Dcobertura.report.format=xml
 
