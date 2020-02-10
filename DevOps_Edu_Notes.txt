@@ -231,5 +231,12 @@ mvn test
 mvn cobertura:cobertura -Dcobertura.report.format=xml
 mvn package
 clean build space whenever new buid run
+whenever you install jenkin in any machine that will become master for the same
+we can schedule job on slave node from master so there will be no load on master
+don't need to install jenkin on slave node just need to run agent this agent will communicate and run those task
+first we need to enable agent tcp port for agent random or fix(random)
+manage node==> new node
+how to start use java webstart
+git java maven need to install on slave node if the jobs are running from them
 
 
