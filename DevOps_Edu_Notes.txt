@@ -251,4 +251,32 @@ config control(change management)
 config audit if something changes you need to keep an eye
 deliver your s/w as quickly as possible in DevOps
 --------------------------------------------------------------------------------------------------------------------------------------------------
+Ansible
+config managemnet for 1000 server install java httpd webserver
+cinfig managment chk requirement first check whether above s/w install if not then install and if yes it will ignore
+config management talk to remote server 
+config managem work on two model that is push and pull model
+ansible work on push model, machine come to controller and if there any changes and pull 
+puppet work on pull model
+ansible is agent less we can save memmory , cpu
+ping connectivity is required from the node
+disadvantage: push model itself you should be there whenever the code is ready in case server is down 
+ssh is the protocol by using which machine communicate ansibl uses ssh protocol to communicate with remote machine
+ansible is suitable for linux based 
+prerequisite :python for ansible installatio
+machine where i installed ansible s/w is called ansible controller
+machine which i managed is called as ansible node
+CM provision,automate,orchestrate(step by step execution)
+no agent 
+no db
+no residual s/w
+no service for ansible
+no complex upgrade
+ansible uses YAML
+
+adduser ansible
+make below changes to sshd_config file
+passwordauthentication yes
+permitroot login yes
+restart ssh service  : systemctl restart sshd
 
