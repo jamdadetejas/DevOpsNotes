@@ -238,5 +238,17 @@ first we need to enable agent tcp port for agent random or fix(random)
 manage node==> new node
 how to start use java webstart
 git java maven need to install on slave node if the jobs are running from them
-
+we can autmate all this 5 step process into single file that is jenkinfile pipeline as code
+--------------------------
+configuration management
+-------------------------
+Infrastructure automation Ansible , Puppet
+using selenium for functional testing
+change mangement CAB(change advisory board)
+any changes to your infra is part of configuration management eg. tomcat installation
+config identification
+config control(change management)
+config audit if something changes you need to keep an eye
+deliver your s/w as quickly as possible in DevOps
+--------------------------------------------------------------------------------------------------------------------------------------------------
 
