@@ -273,10 +273,12 @@ no residual s/w
 no service for ansible
 no complex upgrade
 ansible uses YAML
-
+ansible support linux based OS
 adduser ansible
 make below changes to sshd_config file
 passwordauthentication yes
 permitroot login yes
 restart ssh service  : systemctl restart sshd
-
+generate the key using "ssh-keygen" on ansible controller and copy to remote machine using "ssh-copy-id"
+pip:python package management
+boto:will something when connect to AWS
